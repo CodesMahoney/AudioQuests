@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AudioQuestRetriever", "AudioQuestRetriever\AudioQuestRetriever.csproj", "{FCD3C24C-C709-45B3-9709-830F474B27E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AudioQuests", "AudioQuestsSite\AudioQuestsSite.csproj", "{3AAA3AB8-DF00-435E-A9D4-11B8BD414933}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCD3C24C-C709-45B3-9709-830F474B27E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCD3C24C-C709-45B3-9709-830F474B27E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCD3C24C-C709-45B3-9709-830F474B27E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCD3C24C-C709-45B3-9709-830F474B27E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AAA3AB8-DF00-435E-A9D4-11B8BD414933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AAA3AB8-DF00-435E-A9D4-11B8BD414933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AAA3AB8-DF00-435E-A9D4-11B8BD414933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AAA3AB8-DF00-435E-A9D4-11B8BD414933}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36B5C3EB-8E72-467B-90DD-35AB1BE48EBD}
+	EndGlobalSection
+EndGlobal
