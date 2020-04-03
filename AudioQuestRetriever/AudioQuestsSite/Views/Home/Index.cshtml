@@ -1,0 +1,41 @@
+﻿@model IndexViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+    var src = $"audio/{Model.Id.ToString()}.mp3";
+}
+
+<form class="mt-3">
+    <div class="input-group mb-3">
+        <input name="questId" type="text" class="form-control" placeholder="Quest Id" aria-label="Quest Id" aria-describedby="button-addon2">
+        <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Submit</button>
+        </div>
+    </div>
+</form>
+
+
+@if (Model.Id > 0)
+{
+    <div id="home" class="row mt-4">
+        <div class="audio col-md-4">
+            <h3>Audio</h3>
+            <audio controls autoplay>
+                <source src="@src" type="audio/ogg">
+                <source src="@src" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <div class="quest col-md-8">
+            <div class="description">
+                <h3>Description</h3>
+                @Model.description
+            </div>
+            <div class="objective mt-5">
+                <h3>Objective</h3>
+                @Model.objective
+            </div>
+        </div>
+    </div>
+}
