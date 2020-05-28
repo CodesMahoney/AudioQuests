@@ -1,5 +1,5 @@
 ## Interface: 80300
-## Version: 1.0.0
+## Version: 1.0.1
 ## Title: AudioQuests
 ## Notes: Adds text to speech for all wow quests.
 ## Author: CodesMahoney
