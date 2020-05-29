@@ -85,14 +85,14 @@ logButton:SetScript("OnLeave", AQ_LogQuestButton_OnLeave)
 -------------------------------------------------------------------------------
 -- the play button in the quest map -------------------------------------------
 -------------------------------------------------------------------------------
-local mapF = CreateFrame("Frame", "AQFrameMap", QuestMapFrame)
+local mapF = CreateFrame("Frame", "AQFrameMap", QuestMapFrame.DetailsFrame)
 mapF:SetPoint("BOTTOMLEFT")
 mapF:SetSize(338, 50)
 mapF:Show()
 
 local mapButton = CreateFrame("Button", "AQButton", mapF)
 
-mapButton:SetPoint("TOPRIGHT", QuestMapFrame, "TOPRIGHT", 50, -12)
+mapButton:SetPoint("TOPRIGHT", QuestMapFrame.DetailsFrame, "TOPRIGHT", 70, 30)
 mapButton:SetWidth(150)
 mapButton:SetHeight(32)
 
